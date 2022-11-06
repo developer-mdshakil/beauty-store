@@ -1,0 +1,21 @@
+.banner{
+    background-image: url(../../../assets/images/banner/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 8rem 3rem;
+    border-radius: 2rem;
+    position: relative;
+    z-index: 1;
+}
+.banner:after {
+    content:'';
+    position:absolute;
+    left:0; 
+    top:0;
+    width:100%; 
+    height:100%;
+    border-radius: 12px;
+    display:inline-block;
+    z-index: -1;
+    background: linear-gradient(to right,  #151515 0%,rgba(21, 21, 21, 0) 100%); /* W3C */
+  }
